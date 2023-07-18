@@ -1,0 +1,14 @@
+- hosts: all
+  tasks:
+  - name: install packages  
+    yum:
+      name:
+      - vim
+      - git
+      - tree
+      state: latest
+  - name: Download the wget package but do not install it
+    yum:
+      name: wget
+      state: latest
+      download_only: true
