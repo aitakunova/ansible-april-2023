@@ -1,0 +1,4 @@
+- hosts: all 
+  vars:
+  tasks: 
+  - debug: msg="Hello {{ name }}, you are a {{ team }}, you work for {{ company }}"

@@ -1,0 +1,4 @@
+[devops]
+master ansible_host=143.244.175.1
+
+worker ansible_host=104.248.62.67
